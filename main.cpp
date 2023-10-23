@@ -4,7 +4,7 @@
 // SimplePy (simple python) interpreter. The language only supports int and str data
 // types, the print() function, and simple assignment statements.  BNF is below.
 //
-// Author: Rimsha Rizvi, CS 141, Spring 2021
+// Author: Rimsha Rizvi
 //
 // Originally Written by: Prof. Hummel, U. of Illinois, Chicago, Spring 2021
 // Originally released as solution to Project 03, Part 01
