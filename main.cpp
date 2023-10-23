@@ -7,7 +7,6 @@
 // Author: Rimsha Rizvi
 //
 // Originally Written by: Prof. Hummel, U. of Illinois, Chicago, Spring 2021
-// Originally released as solution to Project 03, Part 01
 //
 
 #include <iostream>
