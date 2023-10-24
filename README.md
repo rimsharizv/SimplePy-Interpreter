@@ -7,11 +7,6 @@ SimplePy is a minimalistic Python interpreter that supports integer and string d
 ## Compilation
 g++ -o main main.cpp
 
-## Usage
-To run SimplePy, you need to provide the SimplePy program file and the size of the memory array as command-line arguments: ./main filename.py memorysize
-1. filename.py: The SimplePy program file.
-2. memorysize: The size of the memory array.
-
 ## Function Descriptions
 1. searchRAM: Searches memory for a variable matching the given identifier and returns the index if found, -1 if not.
 2. retrieveElement: Retrieves an expression element, which can be a variable or a literal (integer or string), and returns the value as a string along with the value's type.
@@ -22,6 +17,4 @@ To run SimplePy, you need to provide the SimplePy program file and the size of t
 7. executeStmt: Executes the statement denoted by the program counter (PC) in the program array, consuming and executing the tokens.
 
 ## Copyright and Plagiarism Notice
-All content in this repository, including code, documentation, and other materials, is the property of Rimsha Rizvi. This work is submitted for CS 141 - Program Design II at University of Illinois at Chicago.
-Plagiarism is a serious offense and is strictly prohibited. You may not use, copy, or submit this work as your own. Any instances of plagiarism or unauthorized use will be reported to the relevant academic or professional authorities.
-If you would like to use this work for educational or other non-commercial purposes, please contact the author for permission.
+This work is submitted for CS 141 - Program Design II at the University of Illinois at Chicago. Plagiarism is a serious offense and is strictly prohibited. You may not use, copy, or submit this work as your own. Any plagiarism or unauthorized use will be reported to the relevant academic or professional authorities. If you would like to use this work for educational or other non-commercial purposes, don't hesitate to get in touch with the author for permission.
